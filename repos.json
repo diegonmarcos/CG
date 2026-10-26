@@ -1,0 +1,41 @@
+{
+  "_doc": "Registry of the CG project (CG, master index). A SUBSET of repo_master/repos.json (git-repos-master), narrowed to the CG family. Identical name/url/private/doc fields to that superset; the two must not disagree. This repo is an INDEX, not a container — see clone.sh for the clone/link model. Private members are linked only: the index exposes their name, never their content.",
+  "_schema": "front-repos/v1",
+  "base_dir_doc": "Clones live outside this index, as siblings in $CLOUD_GIT_BASE (default ~/git). This repo holds only committed symlinks pointing at them.",
+  "base_dir_default": "~/git",
+  "_visibility_doc": "private:true repos require SSH access configured for this GitHub account to clone.",
+  "groups": {},
+  "repos": [
+    {
+      "name": "CG-circus",
+      "url": "git@github.com:diegonmarcos/CG-circus.git",
+      "private": false,
+      "doc": "Sources of the c_Circus group (movies, music, myfeed moved to cloud-webapps-2, #1204), split from front-projects (#1072); snapshot copy, paths mirror the original layout."
+    },
+    {
+      "name": "CG-galaxy",
+      "url": "git@github.com:diegonmarcos/CG-galaxy.git",
+      "private": false,
+      "doc": "Sources of the b_Projects group, split from front-projects (#1072); snapshot copy, paths mirror the original layout."
+    },
+    {
+      "name": "CG-galaxy-gaia",
+      "url": "git@github.com:diegonmarcos/CG-galaxy-gaia.git",
+      "private": true,
+      "doc": "Front-end experiment."
+    },
+    {
+      "name": "CG-unity",
+      "url": "git@github.com:diegonmarcos/CG-unity.git",
+      "private": true,
+      "doc": "Unity asset pipeline (unity-asset-vm: upkg2gltf, fetch-and-convert) plus its assets. Was front-asset-cdn, the predecessor of front-assets-cdn; renamed 2026-08-18 to match what it actually holds - the CDN itself is front-assets-cdn."
+    },
+    {
+      "name": "CG-voxel-rust",
+      "url": "git@github.com:diegonmarcos/CG-voxel-rust.git",
+      "private": false,
+      "doc": "Voxel engine in Rust (vox-rust build plan under docs/)."
+    }
+  ],
+  "_root_doc": "No entries carry a group field — every CG-* repo links at the root of this index, same as front."
+}
