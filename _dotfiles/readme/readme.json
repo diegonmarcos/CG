@@ -1,0 +1,5 @@
+{
+  "title": "CG-master",
+  "intro": "Registry index for the `CG-*` repo family — same model as `cloud-master`\n(`~/git/cloud/`), narrowed to CG. This repo is an INDEX, not a container:\nit holds `repos.json` (the registry) and `clone.sh` (pick which repos to\nhave locally); the actual clones live as siblings in `~/git/`.\n\nTop-level hub since #1291 (it was under `Projects-___`).",
+  "sections": []
+}

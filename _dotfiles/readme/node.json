@@ -1,0 +1,84 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "CG-___",
+  "label": "CG-___",
+  "code": "2.0",
+  "kind": "hub",
+  "description": "CG — master index of the CG-* repos (circus, galaxy, galaxy-gaia, unity, voxel-rust)",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/CG-___",
+  "developer": "Leaf.y",
+  "farm": "2.CG",
+  "breadcrumb": [
+    {
+      "code": "2",
+      "kind": "area",
+      "label": "CG",
+      "icon": "🎮"
+    }
+  ],
+  "hub": {
+    "name": "_git-repos-master",
+    "code": "0",
+    "url": "https://github.com/diegonmarcos/_git-repos-master"
+  },
+  "base_dir": "git",
+  "members": [
+    {
+      "code": "2.1.1.1",
+      "name": "CG-galaxy",
+      "url": "https://github.com/diegonmarcos/CG-galaxy",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "Front group b_Projects (split from front-projects, #1072)"
+    },
+    {
+      "code": "2.1.1.2",
+      "name": "CG-galaxy-gaia",
+      "url": "https://github.com/diegonmarcos/CG-galaxy-gaia",
+      "visibility": "private",
+      "kind": "repo",
+      "description": "front-galaxy-gaia"
+    },
+    {
+      "code": "2.1.2.1",
+      "name": "CG-unity",
+      "url": "https://github.com/diegonmarcos/CG-unity",
+      "visibility": "private",
+      "kind": "repo",
+      "description": "Asset CDN tooling: reproducible Unity Asset Store download via cloud VM + glTF conversion"
+    },
+    {
+      "code": "2.1.3.1",
+      "name": "CG-voxel-rust",
+      "url": "https://github.com/diegonmarcos/CG-voxel-rust",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "vox-rust: agent-driven voxel world (Luanti-class engine in Rust) — build plan"
+    },
+    {
+      "code": "2.2.1.1",
+      "name": "CG-circus",
+      "url": "https://github.com/diegonmarcos/CG-circus",
+      "visibility": "public",
+      "kind": "repo",
+      "description": "Front group c_Circus (split from front-projects, #1072)"
+    }
+  ],
+  "tree": [
+    "├── .claude/",
+    "│   ├── agents/",
+    "│   ├── hooks/",
+    "│   │   └── c3/",
+    "│   └── skills/",
+    "│       └── c3-infra/",
+    "├── .githooks/",
+    "├── .github/",
+    "│   └── workflows/",
+    "├── .obsidian/",
+    "├── .vscode/",
+    "└── 0_hub/",
+    "    └── _git-repos-master (submodule)"
+  ]
+}
