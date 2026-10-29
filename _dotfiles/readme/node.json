@@ -5,6 +5,7 @@
   "label": "CG-___",
   "code": "2.0",
   "kind": "hub",
+  "variant": "hub",
   "description": "CG — master index of the CG-* repos (circus, galaxy, galaxy-gaia, unity, voxel-rust)",
   "visibility": "public",
   "url": "https://github.com/diegonmarcos/CG-___",
